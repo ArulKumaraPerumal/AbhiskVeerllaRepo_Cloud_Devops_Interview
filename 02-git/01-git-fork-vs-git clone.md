@@ -34,23 +34,23 @@ The primary difference between a Git clone and a Git fork is where the copy is c
 
 **Deep Dive: Git Clone**
 Cloning downloads a complete copy of an existing remote repository onto your computer. This process downloads the files, the complete commit history, and all project branches.How it works: You run git clone via your command line interface.Permissions: If you do not have write access to the original repository, you can only pull changes locally; you cannot push your code updates back up to the server.Best used for: Working on your own private projects, corporate internal applications, or team repositories where you are already an approved contributor.Deep Dive: Git CloneCloning downloads a complete copy of an existing remote repository onto your computer. This process downloads the files, the complete commit history, and all project branches.
-How it works: You run git clone via your command line interface.
-Permissions: If you do not have write access to the original repository, you can only pull changes locally; you cannot push your code updates back up to the server.
-Best used for: Working on your own private projects, corporate internal applications, or team repositories where you are already an approved contributor.
+-How it works: You run git clone via your command line interface.
+-Permissions: If you do not have write access to the original repository, you can only pull changes locally; you cannot push your code updates back up to the server.
+-Best used for: Working on your own private projects, corporate internal applications, or team repositories where you are already an approved contributor.
 
 **Deep Dive: Git Fork**
 Forking creates a duplicate instance of someone else’s repository directly on your cloud hosting service account, such as GitHub or Bitbucket.
 
-How it works: You click a "Fork" button directly on the hosting provider's web interface.
-Permissions: You have total management rights over the new server-side copy. You can freely make changes and push updates to it.
-Best used for: Proposing bug fixes to open-source software via pull requests, or using an existing project as a foundational starting point to build your own distinct app.
+-How it works: You click a "Fork" button directly on the hosting provider's web interface.
+-Permissions: You have total management rights over the new server-side copy. You can freely make changes and push updates to it.
+-Best used for: Proposing bug fixes to open-source software via pull requests, or using an existing project as a foundational starting point to build your own distinct app.
 
 **Typical Combined Workflow**
 
 In practice, these two operations are usually used together when contributing to public software projects.
-Fork the original open-source project on GitHub to create a personal server-side repository.
-Clone your new personal fork down onto your computer to modify files locally
-Push your local commits back to your personal GitHub fork.
-Submit a pull request from your fork back to the original author's repository for code review.
+1. Fork the original open-source project on GitHub to create a personal server-side repository.
+2. Clone your new personal fork down onto your computer to modify files locally
+3. Push your local commits back to your personal GitHub fork.
+4. Submit a pull request from your fork back to the original author's repository for code review.
 
 
